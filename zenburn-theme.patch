@@ -1,0 +1,42 @@
+89,104c89,104
+< 	"#073642",  /*  0: black    */
+< 	"#dc322f",  /*  1: red      */
+< 	"#859900",  /*  2: green    */
+< 	"#b58900",  /*  3: yellow   */
+< 	"#268bd2",  /*  4: blue     */
+< 	"#d33682",  /*  5: magenta  */
+< 	"#2aa198",  /*  6: cyan     */
+< 	"#eee8d5",  /*  7: white    */
+< 	"#002b36",  /*  8: brblack  */
+< 	"#cb4b16",  /*  9: brred    */
+< 	"#586e75",  /* 10: brgreen  */
+< 	"#657b83",  /* 11: bryellow */
+< 	"#839496",  /* 12: brblue   */
+< 	"#6c71c4",  /* 13: brmagenta*/
+< 	"#93a1a1",  /* 14: brcyan   */
+< 	"#fdf6e3",  /* 15: brwhite  */
+---
+>  	"#1C1C1C",  //  0: black
+>  	"#705050",  //  1: red
+>  	"#60B48A",  //  2: green
+>  	"#DFAF8F",  //  3: yellow
+>  	"#506070",  //  4: blue
+>  	"#DC8CC3",  //  5: magenta
+>  	"#8CD0D3",  //  6: cyan
+>  	"#DCDCCC",  //  7: white
+>  	"#709080",  //  8: br:black
+>  	"#DCA3A3",  //  9: br:red
+>  	"#C3BF9F",  // 10: br:green
+>  	"#F0DFAF",  // 11: br:yellow
+>  	"#94BFF3",  // 12: br:blue
+>  	"#EC93D3",  // 13: br:magenta
+>  	"#93E0E3",  // 14: br:cyan
+>  	"#BFBFBF",  // cursor
+117c117
+< unsigned int defaultfg = 12;
+---
+> unsigned int defaultfg = 7;
+119c119
+< static unsigned int defaultcs = 14;
+---
+> static unsigned int defaultcs = 15;
